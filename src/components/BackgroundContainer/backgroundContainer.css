@@ -9,9 +9,9 @@ body { margin: 0; padding: 0; background-color: rgb(30, 28, 44); }
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;    
-/* 
+
     transition-duration: 0.8s;
-    transition-delay: 0.15s; */
+    transition-delay: 0.15s;
 }
 
 .bg-container > .bg-box {
@@ -20,19 +20,25 @@ body { margin: 0; padding: 0; background-color: rgb(30, 28, 44); }
     left: 50%;
     transform: translate(-50%, -50%); 
 
-    background-color: rgba(240, 248, 255, 0.563);
+    background-color: rgba(240, 248, 255, 0.663);
     padding: 20px;
     border-radius: 10px;
     filter: drop-shadow(0 0 10px #cbcbcb);
-
-}
-
-.bg-container > .bg-box > p {
-    text-align: center;
 }
 
 .bg-container > .bg-box > button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
     display: block;
     padding: 20px 40px;
+    border: 2px solid rgba(144, 144, 114, 0.551);
+    border-radius: 5px;
+}
+
+.bg-container > .bg-box > p,
+.bg-container > .bg-box > p a:link,
+.bg-container > .bg-box > p a:visited {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #584f4fea;    
+    text-align: center;    
 }

@@ -13,6 +13,8 @@ function App() {
     )
   }
 
+  console.log(currentBg)
+
   return (
     <BackgroundContainer
       currentBg={currentBg} 

@@ -6,8 +6,8 @@ export default function BackgroundContainer( {currentBg, handleRandomBG}) {
         <div style={{"backgroundImage": `url(/images/${currentBg}`}} 
              className="bg-container">
                 <div className="bg-box">
-                    <button onClick={ handleRandomBG }>We are all buttons</button>
-                    <p><a href="https://github.com/jsohndata/random-background-image.git" target="_blank" rel="noreferrer">See Code in GitHub</a></p>
+                    <button onClick={ handleRandomBG }>Button</button>
+                    <p><small><a href="https://github.com/jsohndata/random-background-image.git" target="_blank" rel="noreferrer">See Code in GitHub</a></small></p>
                 </div>
         </div>
     )
