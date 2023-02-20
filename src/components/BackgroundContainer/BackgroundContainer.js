@@ -42,7 +42,7 @@ export default function BackgroundContainer() {
                     <button onClick={ () => handleBG("photoF") }>Photo F</button>
 
                     <p><small><a 
-                        href="https://github.com/jsohndata/random-background-image.git" 
+                        href="https://github.com/jsohndata/random-background-image/tree/specific" 
                         target="_blank" 
                         rel="noreferrer">See Code in GitHub</a></small></p>
                 </div>
